@@ -13,7 +13,7 @@ const content = (script) =>
 
   <style>
     body {
-      background-color: white;
+      background: white;
       font-family: Helvetica, Sans-Serif;
       -moz-user-select: none;
       -webkit-user-select: none;
@@ -40,7 +40,7 @@ const content = (script) =>
       height: 10px;
       left: 20px;
       bottom: 10px;
-      background: transparent;
+      background: white;
       -webkit-transform: skew(-3deg) rotate(-3deg);
       -moz-transform: skew(-3deg) rotate(-3deg);
       -ms-transform: skew(-3deg) rotate(-3deg);
