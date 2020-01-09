@@ -25,8 +25,5 @@
   "bugs": {
     "url": "https://github.com/YanYuanFE/react-native-signature-canvas/issues"
   },
-  "homepage": "https://github.com/YanYuanFE/react-native-signature-canvas#readme",
-  "dependencies": {
-    "react-native-webview": "^7.5.2"
-  }
+  "homepage": "https://github.com/YanYuanFE/react-native-signature-canvas#readme"
 }
