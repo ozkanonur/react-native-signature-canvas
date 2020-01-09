@@ -4,7 +4,7 @@ const content = `
         saveButton = wrapper.querySelector("[data-action=save]"),
         canvas = wrapper.querySelector("canvas"),
         signaturePad;
-    
+
     // Adjust canvas coordinate space taking into account pixel ratio,
     // to make it look crisp on mobile devices.
     // This also causes canvas to be cleared.
@@ -17,22 +17,22 @@ const content = `
         canvas.height = canvas.offsetHeight * ratio;
         canvas.getContext("2d").scale(ratio, ratio);
     }
-    
+
     window.onresize = resizeCanvas;
     resizeCanvas();
-    
+
     signaturePad = new SignaturePad(canvas);
-    
+
     clearButton.addEventListener("click", function (event) {
         signaturePad.clear();
     });
-    
+
     saveButton.addEventListener("click", function (event) {
         if (signaturePad.isEmpty()) {
             window.ReactNativeWebView.postMessage("EMPTY");
         } else {
             window.ReactNativeWebView.postMessage(signaturePad.toDataURL());
-            
+
         }
     });
 `;
