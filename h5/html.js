@@ -30,9 +30,7 @@ const content = (script) =>
       left: 50%;
       margin-left: -350px;
       margin-top: -200px;
-      border: 1px solid #e8e8e8;
       background-color: #fff;
-      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.08) inset;
     }
 
     .m-signature-pad:before, .m-signature-pad:after {
@@ -49,7 +47,6 @@ const content = (script) =>
       -ms-transform: skew(-3deg) rotate(-3deg);
       -o-transform: skew(-3deg) rotate(-3deg);
       transform: skew(-3deg) rotate(-3deg);
-      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
     }
 
     .m-signature-pad:after {
@@ -78,7 +75,6 @@ const content = (script) =>
         width: 100%;
         height: 100%;
         border-radius: 4px;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.02) inset;
       }
 
     .m-signature-pad--footer {
